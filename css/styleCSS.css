@@ -1,0 +1,65 @@
+/* Geral */
+body {
+    padding: 20px;
+}
+
+/* Alterando o estilo do Parágrafos */
+p {
+    color: green;
+    font-size: 30px;
+}
+
+/* Alterando o  estilo da classe de Parágrafos numerados */
+.p-numerados {
+    font-family: 'Courier New';
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+/* Alterando o estilo do id p1 */
+#p1 {
+    background-color: black;
+    color: red;
+}
+/*alterando a borda do botao <h2>*/
+h2 {
+    border-bottom: 1px solid red;
+}
+
+/* ALTERANDO TODOS ELEMENTOS DA PÁGINA */
+* {
+    font-family: Arial;
+}
+/* Sem efeito da decoraçao*/
+ .decoration {
+    text-decoration: none;
+    transition: 0.5s;
+}
+/*alterando a cor do link <a> para vermelho*/
+a:visited {
+    color: rgb(241, 13, 13);
+}
+/*altera a cor do link <a> para amarelo ao passar o mouse */
+a:hover {
+    background-color: yellow;
+    
+}
+
+/* Fontes */
+.serifada {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sem-serifa {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa {
+    width: 150px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+}

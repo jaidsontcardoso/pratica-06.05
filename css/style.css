@@ -1,0 +1,27 @@
+/* Aplicando tipo de fonte em todo o documento */
+body {
+    font-family: sans-serif;
+}
+
+/* Alterando o estilo do elemento pelo ID */ 
+#div-paragrafos {
+    background-color: rgb(93, 93, 145);
+    color: aliceblue;
+}
+
+/* Alterando o estilo no elemento pela classe */ 
+.longo {
+    background-color: pink;
+}
+
+/* Alterando o estilo do elemento pelo ID */ 
+#p1 {
+    color: brown;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Alterando o a fonte da tag <p> */
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
